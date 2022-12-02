@@ -11,3 +11,12 @@ def timeOfDay(clock):
         return "evening"
     else:
         return "night"
+
+# ask user input
+clock = input("Enter current time in hours: ")
+
+# call function with user input and assign it to variable
+time = timeOfDay(clock)
+
+# print user input and function return from a variable
+print("Current time is ",clock," hours and the time of day is ",time)

@@ -38,6 +38,12 @@ my-cake = 2 # contains dash
 this cake = 3 # contains space
 '''
 
+# many values to multiple variables 
+a, b, c = "Koko", "Kokko", "Kokoon"
+
+# same single value to multiple variables
+d = e = f = "One"
+
 # unpacking a collection of data to different variables
 fruits = ["apple", "banana", "cherry"]
 x, y, z = fruits

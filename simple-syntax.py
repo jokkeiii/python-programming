@@ -11,3 +11,7 @@ if x == 5:
 print("This is okay")
 # example how not to indent
     print("This is not okay")
+
+# single and double quotes are the same in python
+print("This is double quotes")
+print('This is single quotes')
